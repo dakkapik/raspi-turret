@@ -1,0 +1,18 @@
+{
+  "name": "raspi-turret",
+  "version": "1.0.0",
+  "description": "turret network client",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "dakkapik",
+  "license": "ISC",
+  "dependencies": {
+    "pi-blaster.js": "^0.1.3",
+    "socket.io-client": "^4.5.1"
+  }
+}
