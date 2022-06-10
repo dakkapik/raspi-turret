@@ -18,7 +18,7 @@ socket.on("turret-pos", ( pos ) => {
     // piblaster.setPwm(17)
 })
 
-socket.on("mouse-pos", ( pos )=> {
+socket.on("canvas-pos", ( pos )=> {
     piblaster.setPwm(4, (pos.x * ratio) / 1000 + 0.06)
     piblaster.setPwm(17, (pos.y * ratio) / 1000 + 0.06)
 })
