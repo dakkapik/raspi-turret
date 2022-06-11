@@ -13,9 +13,9 @@ socket.on("connect",() => {
 // piblaster 180 degree for servo is 0.06 - 0.24
 socket.on("turret-pos", ( turret ) => {
     // pin 4 is yaw
-    piblaster.setPwm(4, turret.z)
+    piblaster.setPwm(17, turret.z)
     // pin 17 is roll
-    piblaster.setPwm(17, turret.x)
+    piblaster.setPwm(4, turret.x)
 })
 
 socket.on("canvas-pos", ( pos )=> {
